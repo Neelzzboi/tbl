@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#img1 {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#bio {
+    position: absolute;
+    height: 800px;
+    background: linear-gradient(aqua 0%, aquamarine 100%);
+    color: aliceblue;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 200px;
+    }
+
+#section2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.line {
+    background-color: black;
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+}
