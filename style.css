@@ -21,6 +21,7 @@ body{
     bottom: 0;
     width: 100%;
     padding-top: 200px;
+    z-index: 2; 
     }
 
 #section2 {
@@ -34,4 +35,29 @@ body{
     width: 70px;
     height: 6px;
     margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.links:hover {
+    color:indigo;
+    text-decoration: underline;
+    font-size: 25px;
 }
